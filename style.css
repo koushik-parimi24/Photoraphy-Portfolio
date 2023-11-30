@@ -54,4 +54,5 @@ a {
 }
 .card:hover {
     transition: ease-in 0.4s;
+    transform: scale(1.06);
 }
