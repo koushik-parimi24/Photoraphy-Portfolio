@@ -47,10 +47,11 @@ body {
     cursor: pointer;
     box-shadow: 0 0.5em 0.5em -0.3em #DDF2FD;
     transition: box-shadow 0.9s;
-    transform: scale(1.5);
-
 }
 
 a {
     text-decoration: none;
+}
+.card:hover {
+    transition: ease-in 0.4s;
 }
