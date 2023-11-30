@@ -1,0 +1,56 @@
+img {
+    width: 30%;
+    /* margin: 1.6666%; */
+    /* giving left and right side margin for 3 photos means 6 sides and each phto takes 10px and divided by 6 gives 1.666 */
+    /* we can let pc do this usng cal() */
+    margin: calc(10%/6);
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #9DB2BF;
+    width: 24.29%;
+    margin-left: calc(10%/6);
+    padding: 0.5em 0;
+}
+
+body {
+    background-color: #0A043C;
+}
+
+#Name {
+    color: wheat;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.container:hover>.card:not(:hover) {
+    filter: blur(10px);
+    transition: ease-out 1s;
+}
+
+.media {
+    margin-left: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #FFE3D8;
+    border-radius: 0.2em;
+    padding: 0.03em;
+    color: #0A043C;
+
+}
+
+.media:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.3em #DDF2FD;
+    transition: box-shadow 0.9s;
+    transform: translateY(-0.075em);
+
+}
+
+a {
+    text-decoration: none;
+}
